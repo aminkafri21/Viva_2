@@ -36,20 +36,6 @@ public class Main {
         bubbleSort(arr1);
         bubbleSort(arr2);
         double[] arr3 = mergedArray(arr1, arr2);
-        System.out.print("arr1: ");
-        for(double num: arr1) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-        System.out.print("arr2: ");
-        for(double num: arr2) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-        for(double num: arr3) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
         int idx;
         if(arr3.length % 2 == 0) {
             return (arr3[arr3.length / 2] + arr3[((arr3.length / 2) - 1)]) / 2;
